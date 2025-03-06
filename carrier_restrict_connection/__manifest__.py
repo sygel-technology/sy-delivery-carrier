@@ -13,8 +13,7 @@
     "installable": True,
     "depends": [
         "base",
-        "stock",
-        "delivery",
+        "stock_delivery",
     ],
     "data": [
         "views/stock_picking_views.xml",
