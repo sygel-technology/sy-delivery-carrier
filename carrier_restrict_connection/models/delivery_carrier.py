@@ -3,6 +3,7 @@
 
 from odoo import models
 
+
 class DeliveryCarrier(models.Model):
     _inherit = "delivery.carrier"
 
@@ -13,10 +14,5 @@ class DeliveryCarrier(models.Model):
             if picking.picking_type_id.set_carrier_connection:
                 res = res + super().send_shipping(picking)
             else:
-                res = res + [
-                    {
-                        'exact_price': 0.0,
-                        'tracking_number': False
-                    }
-                ]
+                res = res + [{"exact_price": 0.0, "tracking_number": False}]
         return res

@@ -6,7 +6,7 @@
     "summary": "Restrict carrier connection using picking types",
     "version": "17.0.1.0.0",
     "category": "Stock",
-    "website": "https://www.sygel.es",
+    "website": "https://github.com/sygel-technology/sy-delivery-carrier",
     "author": "Sygel, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,
@@ -16,7 +16,7 @@
         "stock",
         "delivery",
     ],
-    'data': [
+    "data": [
         "views/stock_picking_views.xml",
     ],
 }
