@@ -16,6 +16,13 @@ Odoo Carriers And Deliveries Management
 <!-- prettier-ignore-start -->
 
 [//]: # (addons)
+
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[carrier_restrict_connection](carrier_restrict_connection/) | 17.0.1.0.0 |  | Restrict carrier connection using picking types
+
 [//]: # (end addons)
 
 <!-- prettier-ignore-end -->
