@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [carrier_restrict_connection](carrier_restrict_connection/) | 17.0.1.0.0 |  | Restrict carrier connection using picking types
+[delivery_cbl_picking_note_observations](delivery_cbl_picking_note_observations/) | 17.0.1.0.0 |  | Send Observations to CBL Picking Deliveries with customer_note field
 [delivery_package_number_default](delivery_package_number_default/) | 17.0.1.0.0 |  | Set a default value in delivery package number to not call the wizard
 
 [//]: # (end addons)

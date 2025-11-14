@@ -1,8 +1,9 @@
 [project]
 name = "odoo-addons-sygel-technology-sy-delivery-carrier"
-version = "17.0.20250416.0"
+version = "17.0.20251114.0"
 dependencies = [
     "odoo-addon-carrier_restrict_connection>=17.0dev,<17.1dev",
+    "odoo-addon-delivery_cbl_picking_note_observations>=17.0dev,<17.1dev",
     "odoo-addon-delivery_package_number_default>=17.0dev,<17.1dev",
 ]
 classifiers=[
